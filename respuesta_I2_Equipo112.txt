@@ -1,4 +1,4 @@
-
-
+a- Para actualizar el repositorio al estado que esté el repo que hice fork es PULL
+b- Si, alfa puede actualizar su fork al estado de gamma mientras haga un fetch del mismo
 c- Si, gamma puede actualizar su fork al estado de alfa mientras haga un fetch del mismo
 d- Los datos se pierden solo si se hace un pull repositorio por completo, se puede mantener los datos realizando un merge
