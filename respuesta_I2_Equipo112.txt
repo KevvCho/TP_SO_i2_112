@@ -2,3 +2,35 @@ a- Para actualizar el repositorio al estado que esté el repo que hice fork es P
 b- Si, alfa puede actualizar su fork al estado de gamma mientras haga un fetch del mismo
 c- Si, gamma puede actualizar su fork al estado de alfa mientras haga un fetch del mismo
 d- Los datos se pierden solo si se hace un pull repositorio por completo, se puede mantener los datos realizando un merge
+e- 
+  Franco Vivas
+  Fork del reposotirio https://github.com/KevvCho/TP_SO_i2_112.git
+  git clone https://github.com/FrancoVivas/TP_SO_i2_112.git
+  Agrega datos correspondientes al archivo fork.txt
+  git add .
+  git status 
+  git commit 
+  git push origin main
+  
+  Fernandez Juan 
+  Fork del reposotirio https://github.com/KevvCho/TP_SO_i2_112.git
+  git clone https://github.com/juanfernandez17/TP_SO_i2_112
+  Agrega datos correspondientes al archivo fork.txt
+  git add .
+  git status 
+  git commit 
+  git push origin main
+  
+  Kevin Choinet
+  git clone  https://github.com/KevvCho/TP_SO_i2_112.git
+  Crea archivo NuevoDato.txt
+  
+  Franco Vivas y Fernandez Juan
+  git branch
+  git checkout master
+  git checkout main
+  git remote add upstream https://github.com/KevvCho/TP_SO_i2_112.git
+  git fetch upstream
+  git merge upstream/main
+  git push origin main
+  
